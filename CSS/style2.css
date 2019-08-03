@@ -1,0 +1,129 @@
+*{
+  margin: 0;
+  padding:0;
+  font-family: Courier;
+}
+
+.main{
+
+  /*background-position: center;*/
+}
+
+.logo img {
+
+  width: 300px;
+  height: auto;
+}
+
+.para1 p{
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 100%;
+  padding: 5px;
+  /*border: 2px solid red;*/
+}
+
+.points ul{
+  margin-left: 40px;
+  margin-top: 40px;
+  width: 100%;
+  padding: 20px;
+  font-size: 17px;
+  /*border: 2px solid red;*/
+}
+
+.loginform form{
+  margin-top: 80px;
+  margin-left: 650px;
+  margin-right: 500px;
+  padding: 20px;
+  border: 4px #c94c4c solid;
+  border-radius: 4px;
+}
+
+.loginform .us{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.loginform input[type=text],input[type=password]{
+  width: 100%;
+  padding: 5px;
+}
+
+.loginform .pass{
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+
+}
+.loginform .button{
+  padding: 10px;
+}
+
+.loginform input[type=Submit]{
+  font-size: 16px;
+  padding:7px;
+  /*background-color: #c94c4c;*/
+  border: 1px solid #c94c4c;
+  transition: 0.6s;
+  border-radius: 4px;
+}
+
+.loginform input[type="Submit"]:hover{
+  background-color: #c94c4c;
+  color: #000;
+}
+
+.footer{
+  padding: 10px;
+  margin-top: 50px;
+  margin-left: 550px;
+}
+
+.menum ul li{
+  display: inline-block;
+}
+
+.menum ul li a{
+  text-decoration: none;
+  color: #c94c4c;
+  padding: 5px 20px;
+  border: 1px solid #c94c4c;
+  transition: 0.6s ease;
+}
+
+.menum ul li a:hover{
+  background-color: #c94c4c;
+  color: #000;
+}
+
+.menum ul li.active a{
+  background-color: #c94c4c;
+  color: #000;
+}
+
+.logo img{
+  float: left;
+  width: 300px;
+  height: auto;
+}
+
+.menum ul{
+  float: right;
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.clr{
+  clear:both;
+}
+
+.sup a{
+  padding: 2px;
+  font-weight: bold;
+  text-decoration: none;
+}
